@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    letter-spacing: 10px;
+    color: #17b5d9;
+    font-weight: 300;
+    font-size: 64px;
+    font-family: segou UI, georgia, arial black;
+    /*using a comma you can provide a backup font*/
+    text-decoration: #eb6 underline overline wavy;
+}
+
+p {
+    text-align: right;
+    line-height: 2;
+}
+
+a {
+    text-decoration: #ef5476 line-through;
+}
