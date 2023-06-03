@@ -17,3 +17,7 @@ p {
 a {
     text-decoration: #ef5476 line-through;
 }
+
+body {
+    background-color: azure;
+}
