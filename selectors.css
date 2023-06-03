@@ -1,0 +1,121 @@
+body {
+    background-color: #ffbf81;
+    /*this selects everything in the body*/
+}
+
+button {
+    font-size: 25px;
+    background-color: #ff69eb;
+    /*this selects all buttons */
+}
+
+h1,
+h2 {
+    color: #ff86c8;
+    /*you can select multiple elements seperating them by a comma */
+}
+
+#signup {
+    background-color: #a52c2e;
+    color: #ff69eb;
+    /*this(#) is used for a id selector*/
+}
+
+span {
+    color: #e76f51;
+    /*you can select all spans*/
+}
+
+.tag {
+    background-color: #bde0fe;
+    /*this(.) is used for a class selector*/
+    color: #ff006e;
+    font-size: 18px;
+    font-family: papyrus, fantasy;
+}
+
+/*A Decendant Selector will select all elements inbeded inside another */
+span a {
+    color: violet;
+}
+
+/*Its good practice to put a class(.) or id(#) on a section or div instead of making tags to customize idvidual anchor tags ect.. */
+input+button {
+    background-color: #b67b88;
+}
+
+/*theese are both examples of "ajacent selectors" they will
+select the element immediately folowing another specified element */
+button+h1 {
+    font-weight: 200;
+
+}
+
+footer a {
+    color: antiquewhite;
+    /*this is selecting all anchor tags inside of the footer*/
+}
+
+footer>a {
+    color: aqua
+        /*this is a "Direct Decendant Selector" it 
+    selects the element direclty decending from a specified element*/
+}
+
+input[type="password"] {
+    color: #d90429;
+    background: #ffa3a5;
+    /*this is a "Attribute selector" used to select
+    a specific attribute*/
+}
+
+/*these are Pseudo-classes*/
+.post button:hover {
+    background-color: #058c42;
+    color: #d90429;
+}
+
+a:hover {
+    background-color: #d90429;
+    font-weight: bolder;
+    color: #abf;
+    font-style: fantasy;
+}
+
+.post button:active {
+    background-color: chocolate;
+    color: darkviolet;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #e76f51;
+}
+
+/*These are Pseudo-elements*/
+h2::first-letter {
+    font-size: 50px;
+    font-family: papyrus;
+}
+
+p::first-line {
+    background-color: aquamarine;
+}
+
+::selection {
+    background-color: dodgerblue;
+    color: #69f3ff;
+}
+
+.post p::before {
+    content: "loveme";
+}
+
+.post p::after {
+    content: "hateme";
+}
+
+/*end od pseudo*/
+
+button:hover {
+    background-color: #e15c279f;
+}
