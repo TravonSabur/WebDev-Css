@@ -9,10 +9,14 @@ div {
 
 h1 {
     background-color: #00bbf9;
-    width: 150px;
+    width: 200px;
     padding-left: 100px;
     padding-top: 50px;
     margin: 0;
+}
+
+span {
+    margin-left: 30px;
 }
 
 #one {
