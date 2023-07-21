@@ -1,0 +1,64 @@
+html {
+    font-size: 30px;
+}
+
+section {
+    background-color: #cdedf6;
+    height: 800px;
+    width: 800px;
+}
+
+div {
+    background-color: #ef7b45;
+    height: 50%;
+    width: 50%;
+}
+
+h1 {
+    font-size: 30px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+article#ems {
+    font-size: 20px;
+}
+
+#ems h2 {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+#ems p {
+    font-size: 1em;
+}
+
+#ems button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: .5em;
+    background-color: #d81159;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: .5em;
+    background-color: #d81159;
+}
+
+#rems h2 {
+    font-size: 3rem;
+}
+
+#rems h3 {
+    font-size: 2rem;
+}
+
+#rems ul {
+    font-size: .9rem;
+}
+
+#rems button {
+    font-size: 1.5rem;
+}
