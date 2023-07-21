@@ -1,0 +1,17 @@
+body {
+    font-family: 'Lugrasimo', cursive;
+}
+
+main {
+    width: 69%;
+    margin: auto;
+}
+
+h1 {
+    font-weight: 400;
+    margin-bottom: 0%;
+}
+
+h1+h2 {
+    margin-top: 10px;
+}
